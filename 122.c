@@ -13,7 +13,7 @@ libfive.a :two.o
 #two.o : 
 #	gcc --static -c -o two.c two.o
 
-
+//dasdasd
 
 clean:
 	rm four.elf one.o two.o libfive.a
