@@ -13,7 +13,7 @@ int main()
  pid1 = fork();
  if(pid1 > 0)
  pid2 = fork();
-//asdasdasdasd
+
  if(pid1 > 0 && pid2 > 0)
  {
  waitpid(pid2, &status, 0);
